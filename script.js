@@ -4,10 +4,10 @@ function generateRandomNumber(min,max){
 
 document.getElementById("generateButton").addEventListener("click", function(){
 
-    var min = 1;
-    var max = 100;
+    let min = 1;
+    let max = 100;
 
-    var randomNumber = generateRandomNumber(min,max);
+    let randomNumber = generateRandomNumber(min,max);
     document.getElementById("result").textContent = randomNumber;
     
 })
